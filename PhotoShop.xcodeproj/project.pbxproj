@@ -17,6 +17,8 @@
 		E38AE6BE28A210BA00A83E40 /* PhotoShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE6BD28A210BA00A83E40 /* PhotoShopTests.swift */; };
 		E38AE6C828A210BA00A83E40 /* PhotoShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE6C728A210BA00A83E40 /* PhotoShopUITests.swift */; };
 		E38AE6CA28A210BA00A83E40 /* PhotoShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE6C928A210BA00A83E40 /* PhotoShopUITestsLaunchTests.swift */; };
+		E38AE6E028A2473800A83E40 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE6DF28A2473800A83E40 /* IconButton.swift */; };
+		E38AE6E228A247C900A83E40 /* ImageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE6E128A247C900A83E40 /* ImageStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		E38AE6C328A210BA00A83E40 /* PhotoShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38AE6C728A210BA00A83E40 /* PhotoShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoShopUITests.swift; sourceTree = "<group>"; };
 		E38AE6C928A210BA00A83E40 /* PhotoShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E38AE6DF28A2473800A83E40 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		E38AE6E128A247C900A83E40 /* ImageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStyle.swift; sourceTree = "<group>"; };
 		E631D1D488AAAD110FB7D439 /* Pods_PhotoShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -180,6 +184,7 @@
 		E38AE6D728A212C300A83E40 /* Presentaion */ = {
 			isa = PBXGroup;
 			children = (
+				E39F8FB228A2761D005BBFC6 /* Commons */,
 				E38AE6DA28A21B1B00A83E40 /* Home */,
 			);
 			path = Presentaion;
@@ -188,6 +193,7 @@
 		E38AE6D828A212CA00A83E40 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				E38AE6DE28A246F900A83E40 /* Stylesheet */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -205,6 +211,22 @@
 				E38AE6AE28A210B800A83E40 /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		E38AE6DE28A246F900A83E40 /* Stylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE6E128A247C900A83E40 /* ImageStyle.swift */,
+			);
+			path = Stylesheet;
+			sourceTree = "<group>";
+		};
+		E39F8FB228A2761D005BBFC6 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE6DF28A2473800A83E40 /* IconButton.swift */,
+			);
+			path = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +433,8 @@
 			files = (
 				E38AE6AF28A210B800A83E40 /* HomeView.swift in Sources */,
 				E38AE6AD28A210B800A83E40 /* PhotoShopApp.swift in Sources */,
+				E38AE6E028A2473800A83E40 /* IconButton.swift in Sources */,
+				E38AE6E228A247C900A83E40 /* ImageStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
