@@ -106,7 +106,6 @@
 				59F35FB706AD4A0C0BC517E6 /* Pods-PhotoShopTests.debug.xcconfig */,
 				C48F862E9F3B6EC227843D02 /* Pods-PhotoShopTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -181,7 +180,7 @@
 		E38AE6D728A212C300A83E40 /* Presentaion */ = {
 			isa = PBXGroup;
 			children = (
-				E38AE6AE28A210B800A83E40 /* HomeView.swift */,
+				E38AE6DA28A21B1B00A83E40 /* Home */,
 			);
 			path = Presentaion;
 			sourceTree = "<group>";
@@ -198,6 +197,14 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		E38AE6DA28A21B1B00A83E40 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE6AE28A210B800A83E40 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
